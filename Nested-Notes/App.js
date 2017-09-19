@@ -25,12 +25,10 @@ export default class App extends React.Component {
 }
 
 let dataList = [
-  new TodoModel('Hello Koding'),
-  new TodoModel('Make a Todo App with React Native'),
-  new TodoModel('Check to complete a todo'),
-  new TodoModel('Long press, drag and drop a todo to sort'),
-  new TodoModel('Save data with Realm'),
-  new TodoModel('Sync data with Firebase')
+  new TodoModel('Here is a sample list of bullets'),
+  new TodoModel('You can indent them'),
+  new TodoModel('And unindent them'),
+  new TodoModel('Long press, drag and drop to sort'),
 ];
 
 var dataListOrder = getOrder(dataList);
